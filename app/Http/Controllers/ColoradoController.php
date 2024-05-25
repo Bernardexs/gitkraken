@@ -13,7 +13,7 @@ class ColoradoController extends Controller
     public function index()
     {
         $colorado=colorado::all();
-        return response()->json(['colorado'=>$colorado],200);
+        return response()->json(['colorado'=>$colorado],201);
     }
 
     /**
